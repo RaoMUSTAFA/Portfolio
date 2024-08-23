@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghulam Mustafa Portfolio</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+      body {
+        background-color: rgb(10, 10, 63);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(1, 1, 52);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .navlinks li a {
+        text-decoration: none;
+        color: white;
+      }
+      .navlinks li a:hover {
+        color: rgb(67, 67, 94);
+        font-size: 1.1rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+        align-items: center;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.9rem;
+      }
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      #element {
+        color: rgb(55, 55, 160);
+      }
+      .secondSection {
+        margin: auto;
+        max-width: 80vw;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(55, 55, 160);
+        height: 1.2px;
+        margin: 40px 80px;
+      }
+      .secondSection h1 {
+        font-size: 1.7rem;
+      }
+      .text-gray {
+        color: rgb(64, 64, 77);
+      }
+      .secondSection .container {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 90px;
+      }
+      .vertical-top {
+        position: relative;
+        top: -44px;
+        width: 25px;
+        left: -13px;
+        align-items: center;
+      }
+      .vertical-title {
+        position: relative;
+        top: 70px;
+        left: -60px;
+        width: 150px;
+      }
+      .vertical-description {
+        position: relative;
+        top: 70px;
+        left: -60px;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(14, 14, 28);
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+        font-size: large;
+      }
+      .footer > div {
+        width: 220px;
+      }
+      footer .footer-rights {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mustafa Portfolio</div>
+        <div class="right">
+          <ul class="navlinks">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Service">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          My name is Mustafa
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="container">
+          <div class="vertical">
+            <img
+              class="vertical-top"
+              style="height: 35px; left: -17px; width: 35px"
+              src="c++.png"
+              alt=""
+            />
+            <div class="vertical-title">starting journery(2021)</div>
+            <div class="vertical-description">
+              Learning C++ is a journey through a complex landscape of powerful
+              concepts. Each line of code reveals new techniques and challenges,
+              turning daunting complexities into tools for crafting efficient
+              solutions. It's a rewarding path that deepens your programming
+              skills and problem-solving abilities.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="vertical-top"
+              style="height: 35px; left: -17px; width: 35px"
+              src="html.png"
+              alt=""
+            />
+            <div class="vertical-title">learn html(2022)</div>
+            <div class="vertical-description">
+              Learning HTML is like building the structure of a house; each tag
+              and element forms the foundation of your web pages. As you master
+              HTML, you craft well-organized and accessible content, turning
+              your designs into functional and visually appealing websites. The
+              journey from basic to advanced HTML is essential for creating a
+              strong web presence.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="vertical-top" src="css.png" alt="" />
+            <div class="vertical-title">learn CSS(2022)</div>
+            <div class="vertical-description">
+              Mastering CSS is like adding the finishing touches to a house,
+              transforming its structure into a visually stunning space. As you
+              learn CSS, you style your web pages with colors, layouts, and
+              animations, making them not only functional but also aesthetically
+              pleasing. The journey from simple styles to advanced techniques
+              enhances both the look and feel of your website.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="vertical-top"
+              style="height: 35px; left: -17px; width: 35px"
+              src="bootstrap.png"
+              alt=""
+            />
+            <div class="vertical-title">learn bootstap(2023)</div>
+            <div class="vertical-description">
+              Learning Bootstrap is like using a powerful toolkit to quickly
+              build a stylish and responsive website. With its pre-designed
+              components and flexible grid system, you can streamline your
+              development process and achieve professional results. Mastering
+              Bootstrap means efficiently turning design ideas into functional,
+              adaptive web pages with minimal effort.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="vertical-top" src="javascript.png" alt="" />
+            <div class="vertical-title">learn javascript(2023)</div>
+            <div class="vertical-description">
+              Learning JavaScript is like adding interactivity to a static web
+              page, turning it into a dynamic experience. As you master
+              JavaScript, you bring your websites to life with responsive
+              features and complex functionality, from simple animations to
+              intricate data handling. The journey from basics to advanced
+              scripting opens up endless possibilities for creating engaging and
+              interactive user experiences.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="vertical-top" src="java.png" alt="" />
+            <div class="vertical-title">learn java(2024)</div>
+            <div class="vertical-description">
+              Learning Java is like building a solid foundation for your
+              programming skills, with its object-oriented principles and
+              versatile applications. As you delve into Java, you gain the
+              ability to develop everything from robust desktop applications to
+              scalable web services. Mastering Java's syntax and concepts equips
+              you with a powerful toolset for crafting reliable and efficient
+              software solutions.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="firstFooter">
+          <h3>Ghulam Mustafa Portfolio</h3>
+        </div>
+        <div class="secondFooter">
+          <ul>
+            <li>home</li>
+            <li>Experience</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="thirdFooter">
+          <ul>
+            <li>home</li>
+            <li>Experience</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="FourthFooter">
+          <ul>
+            <li>home</li>
+            <li>Experience</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        ghulam.mustafa2701@gmail.com | All rights reserved
+      </div>
+    </footer>
+    <!--Get it from   https://github.com/mattboldt/typed.js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front-end Developer",
+          "Web Developer",
+          "Web Designer",
+          "Software Engineer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
